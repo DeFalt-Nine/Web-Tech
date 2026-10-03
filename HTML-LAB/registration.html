@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+
+    <form action="School">
+        <label for="fullname">Full Name:</label>
+        <input 
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Enter your full name" 
+            minlength="2"
+            maxlength="50"
+            required>
+
+        <br>
+
+        <label for="">Student ID:</label>
+          <input 
+            type="text"
+            id="studentid"
+            name="studentid"
+            placeholder="Enter your student ID" 
+            minlength="5"
+            maxlength="20"
+            required>
+
+        <br>
+
+        <label for="">Email:</label>
+          <input 
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Enter your email address" 
+            minlength="5"
+            maxlength="20"
+            required>
+
+         <br>
+
+        <label for="">Password:</label>
+          <input 
+            type="text"
+            id="password"
+            name="password"
+            placeholder="Enter your password" 
+            minlength="5"
+            maxlength="20"
+            required>
+
+         <br>
+
+        <label for="">Birthday:</label>
+          <input 
+            type="text"
+            id="birthday"
+            name="birthday"
+            placeholder="Enter your birthday" 
+            minlength="5"
+            maxlength="20"
+            required>
+
+        <br>
+
+        <label for="">Gender:</label>
+          <input type="radio" id="male" name="gender" value="Male" required>
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender" value="female" required>
+          <label for="female">Female</label>
+
+          <input type="radio" id="other" name="gender" value="other" required>
+          <label for="other">Other</label>
+
+        <br>
+
+        <label for="program">Program:</label>
+        <select name="program" id="program" required>
+            <option value="BSIT">BSIT</option>
+            <option value="BSCS">BSCS</option>
+            <option value="BSE">BSE</option>
+            <option value="BSBA">BSBA</option>
+        </select>
+
+        <br>
+
+        <label for="">Hobbies:</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label>
+
+        <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+        <label for="gaming">Gaming</label>
+
+         <input type="checkbox" id="music" name="hobbies" value="music">
+        <label for="music">Music</label>
+
+         <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label>
+
+        <br>
+
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" placeholder="Enter your complete address" minlength="10" maxlength="200" required></textarea>
+
+        <br>
+
+        <label for="comments">Comments:</label>
+        <textarea name="comments" id="comments" placeholder="Enter your comments" maxlength="500"></textarea>
+
+        <br>
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+
+    </form>
+    
+</body>
+</html>
