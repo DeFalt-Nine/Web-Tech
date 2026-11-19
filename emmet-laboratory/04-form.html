@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+    <h2>Input Shorthands</h2>
+    <input type="text" name="" id="">
+    <input type="email" name="" id="">
+    <input type="password" name="" id="">
+    <input type="checkbox" name="" id="">
+    <input type="radio" name="" id="">
+    <input type="submit" value="">
+    </section>
+
+
+    <section>
+    <h2>Student Registration Form</h2>
+    <form action="#" method="post">
+    <div>
+        <label for="student-id">Student ID</label>
+        <input type="text" name="student_id" id="student-id" required>
+    </div>
+
+    <div>
+        <label for="full-name">Full Name</label>
+        <input type="text" name="full_name" id="full-name" required>
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+    </div>
+
+    <div>
+        <p>Gender</p>
+        <label><input type="radio" name="gender" value="Male"> Male</label>
+        <label><input type="radio" name="gender" value="Female"> Female</label>
+        <label><input type="radio" name="gender" value="Other"> Other</label>
+    </div>
+
+    <div>
+        <label for="course">Course</label>
+        <select name="course" id="course">
+          <option value="">Select Course</option>
+          <option value="BSIT">BSIT</option>
+          <option value="BSCS">BSCS</option>
+          <option value="BSIS">BSIS</option>
+        </select>
+    </div>
+
+    <div>
+        <p>Hobbies</p>
+        <label><input type="checkbox" name="hobbies" value="Coding"> Coding</label>
+        <label><input type="checkbox" name="hobbies" value="Gaming"> Gaming</label>
+        <label><input type="checkbox" name="hobbies" value="Reading"> Reading</label>
+        <label><input type="checkbox" name="hobbies" value="Sports"> Sports</label>
+    </div>
+
+    <div>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" rows="3"></textarea>
+    </div>
+
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+    </section>
+</body>
+</html>
